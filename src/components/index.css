@@ -1,0 +1,93 @@
+/* * {
+  color: aqua;
+} */
+
+#tab {
+  color: rgb(130, 73, 73);
+}
+
+#tab tr td {
+  /* color: rgb(73, 130, 93); */
+  border-left: 1px solid rgb(107, 76, 76);
+  width: 50px;
+  height: 40px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#tab tr td:first-child {
+  /* color: rgb(73, 130, 93); */
+  border-left: 0px solid red;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  /* width: 40px; */
+}
+
+#tab tr:nth-child(-n + 10) {
+  /* color: rgb(73, 130, 93); */
+  /* border-left: 0px solid red; */
+  /* width: 40px; */
+  background-color: rgb(247 240 208);
+}
+#tab tr:nth-child(-n + 8) {
+  /* color: rgb(73, 130, 93); */
+  /* border-left: 0px solid red; */
+  /* width: 40px; */
+  background-color: rgb(250 234 209);
+}
+#tab tr:nth-child(-n + 6) {
+  /* color: rgb(73, 130, 93); */
+  /* border-left: 0px solid red; */
+  /* width: 40px; */
+  background-color: rgb(251 227 213);
+}
+
+#tab tr:nth-child(-n + 4) {
+  /* color: rgb(73, 130, 93); */
+  /* border-left: 0px solid red; */
+  /* width: 40px; */
+  background-color: rgb(251 221 218);
+}
+
+#tab tr:nth-child(1) {
+  /* color: rgb(73, 130, 93); */
+  /* border-left: 0px solid red; */
+  /* width: 40px; */
+  background-color: white;
+}
+
+.enquiry_class {
+  background-color: rgb(234 85 69);
+  color: white;
+  width: 100%;
+  border-radius: 2px;
+  height: 100%;
+  padding-top: 7px;
+  margin: 3px 0px;
+}
+
+.booking_class {
+  background-color: rgb(236 117 47);
+  color: white;
+  width: 100%;
+  border-radius: 2px;
+  height: 100%;
+  padding-top: 7px;
+  margin: 3px 0px;
+}
+.retail_class {
+  background-color: rgb(228 148 26);
+  color: white;
+  width: 100%;
+  border-radius: 2px;
+  height: 100%;
+  padding-top: 7px;
+  margin: 3px 0px;
+}
+
+.delivery_class {
+  background-color: rgb(213 179 22);
+  color: white;
+  width: 100%;
+  border-radius: 2px;
+  height: 100%;
+  padding-top: 7px;
+  margin: 3px 0px;
+}
